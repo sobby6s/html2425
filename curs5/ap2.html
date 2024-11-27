@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div img{
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+        @media screen AND (max-width: 360px){
+            h1{
+                color: blue;
+            }
+            .desk, .lap, .tab{
+                display: none;
+            }
+        }
+        @media screen AND (min-width: 361px) and (max-width:768px){
+            h1{
+                color: aqua;
+            }
+            .desk, .lap, .tel{
+                display: none;
+            }
+        }
+        @media screen AND (min-width: 769px) and (max-width:1240px){
+            h1{
+                color: blueviolet;
+            }
+            .desk, .tel, .tab{
+                display: none;
+            }
+            
+        } @media screen AND (min-width: 1241px){
+            h1{
+                color: brown;
+            }
+            .tel, .lap, .tab{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="desk">
+        <h1>Suntem pe desktop</h1>
+        <img src="https://placehold.co/1600" alt="desktop">
+    </div>
+    <div class="lap">
+        <h1>Suntem pe laptop</h1>
+        <img src="https://placehold.co/1200" alt="laptop">
+    </div>
+    <div class="tab">
+        <h1>Suntem pe tableta</h1>
+        <img src="https://placehold.co/800" alt="tableta">
+    </div>
+    <div class="tel">
+        <h1>Suntem pe telefon</h1>
+        <img src="https://placehold.co/400" alt="telefon">
+    </div>
+</body>
+</html>
