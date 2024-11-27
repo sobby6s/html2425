@@ -62,3 +62,10 @@ nav ul li a{
     display: inline-block;
     margin: 20px;
 }
+footer{
+    background-color: black;
+    color: white;
+}
+iframe{
+    width: 400px;
+}
