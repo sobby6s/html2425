@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Bokor';
+    src: url('../fonts/Bokor-Regular.eot');
+    src: local('Bokor Regular'), local('Bokor-Regular'),
+        url('../fonts/Bokor-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Bokor-Regular.woff2') format('woff2'),
+        url('../fonts/Bokor-Regular.woff') format('woff'),
+        url('../fonts/Bokor-Regular.ttf') format('truetype'),
+        url('../fonts/Bokor-Regular.svg#Bokor-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .logo{
     width: 100%;
     max-width: 300px;
@@ -28,9 +42,12 @@ nav ul li:hover,nav ul li.active{
     color: yellow;
 } */
 nav ul li a{
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 /* END HEADER */
 

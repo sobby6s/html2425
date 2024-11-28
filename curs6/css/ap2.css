@@ -1,0 +1,50 @@
+#container{
+    width: 100%;
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+}
+#container h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 5px solid blue;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    text-align: center;
+}
+#myform{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+#myform div{
+    margin: 15px 0px;
+}
+#myform label{
+    display: inline-block;
+    width: 100px;
+    font-size: 20px;
+}
+#myform input{
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+
+}
+#check label{
+    display: inline-block;
+    width: 300px;
+}
+#check input{
+    display: inline-block;
+    width: 20px;
+    padding: 5px;
+}
+#buton{
+    background-color: aqua;
+    border: 1px solid blue;
+    border-radius: 25px;
+
+}
