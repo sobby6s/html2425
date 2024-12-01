@@ -85,7 +85,7 @@ iframe {
   background-color: rgb(49, 47, 47);
   text-align: center;
   padding: 15px;
-  position: center;
+  position: fixed;
   bottom: 0;
   width: 100%;
   color: white;
