@@ -1,88 +1,92 @@
 @font-face {
-    font-family: 'Bokor';
-    src: url('../fonts/Bokor-Regular.eot');
-    src: local('Bokor Regular'), local('Bokor-Regular'),
-        url('../fonts/Bokor-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Bokor-Regular.woff2') format('woff2'),
-        url('../fonts/Bokor-Regular.woff') format('woff'),
-        url('../fonts/Bokor-Regular.ttf') format('truetype'),
-        url('../fonts/Bokor-Regular.svg#Bokor-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Bokor";
+  src: url("../fonts/Bokor-Regular.eot");
+  src: local("Bokor Regular"), local("Bokor-Regular"),
+    url("../fonts/Bokor-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Bokor-Regular.woff2") format("woff2"),
+    url("../fonts/Bokor-Regular.woff") format("woff"),
+    url("../fonts/Bokor-Regular.ttf") format("truetype"),
+    url("../fonts/Bokor-Regular.svg#Bokor-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-.logo{
-    width: 100%;
-    max-width: 300px;
-    float: left;
-
+.logo {
+  width: 100%;
+  max-width: 300px;
+  float: left;
 }
-#logo{
-    width: 150px;
-
+#logo {
+  width: 150px;
 }
-nav{
-    width: 100%;
+nav {
+  width: 100%;
 }
-nav ul{
-    height: 30px;
-    background-color: black;
-    padding: 60px 0px;
+nav ul {
+  height: 30px;
+  background-color: black;
+  padding: 60px 0px;
 }
-nav ul li{
-    display: inline;
-    padding: 20px 25px;
-    list-style: none;
+nav ul li {
+  display: inline;
+  padding: 20px 25px;
+  list-style: none;
 }
-nav ul li:hover,nav ul li.active{
-    background-color: green;
+nav ul li:hover,
+nav ul li.active {
+  background-color: green;
 }
 /* nav ul li:hover a{
     color: yellow;
 } */
-nav ul li a{
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-    font-family: "Bokor", system-ui;
-    font-weight: 400;
-    font-style: normal;
+nav ul li a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: "Bokor", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 /* END HEADER */
 
-#banner{
-    width: 100%;
-    height: 600px;
-    background-image: url("../images/banner.png");
+#banner {
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/banner.png");
 }
-#banner h1{
-    color: pink;
-    /* text-align: center; */
-    position: absolute;
-    top: 40%;
-    left: 40%;
+#banner h1 {
+  color: pink;
+  /* text-align: center; */
+  position: absolute;
+  top: 40%;
+  left: 40%;
 }
 /* END BANNER */
 
-.container{
-    margin: 20px 0px;
-    padding: 10px 30px;
+.container {
+  margin: 20px 0px;
+  padding: 10px 30px;
+}
+#foto {
+  width: 100%;
+  max-width: 1800px;
+  margin: auto;
+}
+#foto img.foto {
+  display: inline-block;
+  margin: 20px;
+}
 
+iframe {
+  width: 400px;
 }
-#foto{
-    width: 100%;
-    max-width: 1800px;
-    margin: auto;
-}
-#foto img.foto{
-    display: inline-block;
-    margin: 20px;
-}
-footer{
-    background-color: black;
-    color: white;
-}
-iframe{
-    width: 400px;
+.footer {
+  background-color: rgb(49, 47, 47);
+  text-align: center;
+  padding: 15px;
+  position: center;
+  bottom: 0;
+  width: 100%;
+  color: white;
 }
