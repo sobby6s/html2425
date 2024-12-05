@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Meow+Script&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <title>Recap3</title>
+    <style>
+        .pacifico-regular {
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            font-family: "Pacifico" cursive;
+            height: 15px;
+        }
+
+        nav {
+            background-color: black;
+            height: 36px;
+        }
+
+        nav>ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav>ul>li {
+            text-transform: uppercase;
+            display: inline;
+            float: left;
+            padding: 7px 5px 10px 5px;
+        }
+
+        nav>ul>li:hover {
+            background-color: red;
+        }
+
+        nav>ul>li.active {
+            background-color: red;
+        }
+
+        nav>ul>li.active>a {
+            color: white;
+        }
+
+        nav>ul>li>a {
+            color: white;
+            text-decoration: none;
+            list-style: none;
+            padding: 15px 20px;
+        }
+
+        nav>ul>li>a:hover {
+            color: black;
+        }
+
+        ul.submeniu {
+            text-transform: uppercase;
+            list-style: none;
+            display: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav>ul>li:hover>ul.submeniu {
+            display: block;
+            background-color: black;
+            clear: both;
+            margin-top: 10px;
+            position: absolute;
+            width: 160px;
+        }
+
+        ul.submeniu>li>a {
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+
+        ul.submeniu>li:hover {
+            background-color: red;
+            color: black;
+            text-decoration: none;
+        }
+
+        nav>ul>li:hover>ul.submeniu>li {
+            padding: 7px 5px 7px 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="active"><a href=""></a>acasa</li>
+            <li>
+                <a href="">blog</a>
+                <ul class="submeniu">
+                    <li><a href="">lista</a></li>
+                    <li><a href="">paragrafe</a></li>
+                    <li><a href="">numar</a></li>
+                    <li><a href="">formular</a></li>
+                </ul>
+            </li>
+            <li><a href="">portofoliu</a></li>
+            <li><a href="">despre</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>

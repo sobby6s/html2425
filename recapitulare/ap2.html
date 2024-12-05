@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recap2</title>
+    <style>
+        body{
+            counter-reset: titlu;
+        }
+        h1{
+            color: red;
+            counter-reset: subtitlu;
+        }
+        h3{
+            color: blue;
+        }
+        h1::before {
+            counter-increment: titlu;
+            content: counter(titlu) ". ";
+        }
+        h3::before {
+            margin-left: 25px;
+            counter-increment: subtitlu;
+            content: counter(titlu) "." counter(subtitlu) " ";
+        }
+    </style>
+</head>
+<body>
+   <h1>Lorem, ipsum.</h1>
+   <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, tempore.</h3>
+   <h3>Unde a dignissimos harum corporis eius deleniti? Dicta, in maxime.</h3>
+   <h3>Neque minima corrupti, quos enim nesciunt iste ipsam dignissimos illo?</h3>
+   <h3>Minima, repudiandae hic esse temporibus maiores assumenda quidem aperiam rem!</h3>
+   <h3>Est quod sapiente commodi sit voluptatem vitae cupiditate animi autem?</h3>
+   <h3>Rerum qui tempore dolorum recusandae laudantium aperiam assumenda provident architecto.</h3>
+   <h1>Ullam, dignissimos!</h1>
+   <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, assumenda.</h3>
+   <h3>Corrupti, enim impedit? Dicta, maiores nobis temporibus incidunt iusto culpa.</h3>
+   <h3>Repellendus ipsam explicabo dicta ab eum architecto voluptate blanditiis recusandae!</h3>
+   <h3>Doloremque eum fuga odio numquam quibusdam quo nulla quidem adipisci.</h3>
+   <h3>Nihil nisi consequatur eligendi vel magni labore, maxime nobis pariatur!</h3>
+   <h3>Asperiores ipsa doloribus animi corporis velit voluptas pariatur officia facere?</h3>
+   <h1>Totam, atque?</h1>
+   <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptatibus!</h3>
+   <h3>Deleniti explicabo minima debitis provident! Harum hic obcaecati sapiente incidunt.</h3>
+   <h3>A reprehenderit ad, facilis excepturi veniam laborum rem totam? Iusto.</h3>
+   <h3>Saepe laborum temporibus quia iusto quisquam deserunt illum numquam quasi.</h3>
+   <h3>Tempora eveniet rem quae perspiciatis soluta, in numquam fugit? Nihil?</h3>
+   <h3>Nemo assumenda eius impedit ab voluptates perferendis quod vitae veniam.</h3>
+   <h1>Hic, quae?</h1>
+   <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, veritatis.</h3>
+   <h3>Enim ratione, sapiente culpa atque eius magnam repudiandae nemo minus.</h3>
+   <h3>Eveniet tempora aliquam dignissimos voluptate sed eaque vel, animi corporis?</h3>
+   <h3>Dolor autem aliquam quibusdam sapiente vitae quae harum fuga deserunt.</h3>
+   <h3>Quae, tempore. Explicabo eius repudiandae laborum eaque sapiente mollitia nihil?</h3>
+   <h3>Eveniet tempore eos nulla numquam voluptate incidunt nam accusamus architecto!</h3>
+   <h1>Dolorum, iusto.</h1>
+   <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ullam.</h3>
+   <h3>Minima exercitationem nemo distinctio explicabo doloribus neque. Nam, distinctio delectus.</h3>
+   <h3>Dolorem nemo quidem, laborum molestias sint cupiditate consequatur nam ipsa!</h3>
+   <h3>Aut magnam tempore natus reiciendis eum? Eos possimus sit minus.</h3>
+   <h3>Quis sapiente iure illo ipsum nisi voluptas corporis dignissimos deleniti.</h3>
+   <h3>Nihil voluptates perspiciatis nobis, tempora quia in corporis id quibusdam.</h3>
+</body>
+</html>

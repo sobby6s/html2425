@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tabel {
+            border: 2px solid black;
+        }
+        tr {
+            border: 1px solid black;
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: brown;
+        }
+
+        tbody tr:nth-child(2n+1) {
+            background-color: blueviolet;
+        }
+        tfoot tr:nth-child(2n) {
+            background-color: brown;
+        }
+
+        tfoot tr:nth-child(2n+1) {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- (table>tbody>tr*4>td*3)+(tfoot>tr*2>td*3) -->
+    <table id="tabel">
+        <tbody>
+            <tr>
+                <td>timisoara</td>
+                <td>234</td>
+                <td>2342342</td>
+            </tr>
+            <tr>
+                <td>cluj</td>
+                <td>343r</td>
+                <td>324234</td>
+            </tr>
+            <tr>
+                <td>calarasi</td>
+                <td>3423</td>
+                <td>234324</td>
+            </tr>
+            <tr>
+                <td>iasi</td>
+                <td>3423</td>
+                <td>4234</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>total</td>
+                <td>2141</td>
+                <td>2421</td>
+            </tr>
+            <tr>
+                <td colspan="2">total</td>
+                <td>3453576</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+#para p:nth-child(2n) {
+color: red;
+}
+#para p:nth-child(2n+1) {
+    color: blue;
+}
+#para p:first-child{
+    color: green;
+}
+#para p:last-child{
+    color: brown;
+}
